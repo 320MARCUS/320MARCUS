@@ -1,0 +1,32 @@
+#!/bin/sh
+# 提交前自动泄漏扫描 —— 红线约定的执行点。
+# 由 tools/setup.ps1 通过 `git config core.hooksPath hooks` 启用。
+# 手动绕过：git commit --no-verify（请务必在提交信息中说明原因）。
+
+ROOT=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0
+[ -n "$ROOT" ] || exit 0
+
+SCAN="$ROOT/tools/leak-scan.ps1"
+[ -f "$SCAN" ] || exit 0
+
+# MSYS / Git Bash 路径转成 Windows 路径，PowerShell 才认
+case "$(uname -s 2>/dev/null)" in
+    MINGW*|MSYS*|CYGWIN*)
+        if command -v cygpath >/dev/null 2>&1; then
+            SCAN=$(cygpath -w "$SCAN")
+        fi
+        ;;
+esac
+
+if command -v powershell.exe >/dev/null 2>&1; then
+    powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "$SCAN" -Staged
+    exit $?
+fi
+
+if command -v pwsh >/dev/null 2>&1; then
+    pwsh -NoProfile -NonInteractive -File "$SCAN" -Staged
+    exit $?
+fi
+
+echo "leak-scan: 未找到 PowerShell，提交前扫描已跳过。请手动运行 tools/leak-scan.ps1" >&2
+exit 0

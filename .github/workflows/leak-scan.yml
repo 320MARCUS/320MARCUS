@@ -1,0 +1,33 @@
+name: 泄漏扫描
+
+# 第二道防线：本地钩子可以用 --no-verify 绕过，这里绕不过去。
+# 每次推送、每个 PR 都会自动扫一遍，命中即红叉。
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  leak-scan:
+    name: 扫描敏感内容
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 运行泄漏扫描
+        shell: pwsh
+        run: ./tools/leak-scan.ps1
+
+      - name: 失败时提示
+        if: failure()
+        shell: pwsh
+        run: |
+          Write-Host '扫描未通过。请查看上一步的输出，定位到具体文件与行号。'
+          Write-Host '规则写在 .leakscan/ 目录下，可按需增补。'
+          Write-Host '本地可用 git commit --no-verify 绕过，但在 CI 上绕不过去。'
