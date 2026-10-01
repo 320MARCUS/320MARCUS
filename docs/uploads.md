@@ -32,7 +32,11 @@ git grep -i -n -I -E --cached -- ":(literal)projects/项目名"
 ```
 
 - [ ] 扫描结果 0 项拦截
-- [ ] 若出现误报，把该文件加入 `.leakscan/` 的例外处理，并在提交信息里说明原因
+- [ ] 若出现误报，在提交信息里写明原因后用 `git commit --no-verify` 跳过，或把该规则改精确
+
+> **扫描前先确认**：个人识别信息（学校名、真名、学号、手机号）应当写在
+> `.leakscan/content/local-private.txt` 里，**不要写进公开的 `99-custom.txt`**。
+> 公开的规则文件本身也会被搜到，等于换个地方泄露。详见 `RED_LINES.md` 第六节。
 
 ## 第 3 步：补充材料
 
