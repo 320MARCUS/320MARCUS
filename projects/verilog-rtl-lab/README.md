@@ -68,9 +68,10 @@ verilog-rtl-lab/
 ├── docs/
 │   ├── img/        # 架构图、回归输出、波形图
 │   └── talk-3min.md
-├── .github/workflows/ci.yml
 └── LICENSE
 ```
+
+> CI 说明：本仓库为多项目单仓（monorepo），GitHub Actions 只读取仓库根 `.github/workflows/`。本项目的回归 workflow 是仓库根的 `rtl-regression.yml`（按 `projects/verilog-rtl-lab/**` 路径过滤触发）。
 
 ## 5. 如何复现
 

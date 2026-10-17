@@ -2,11 +2,25 @@ name: rtl-regression
 
 on:
   push:
+    paths:
+      - 'projects/verilog-rtl-lab/**'
+      - '.github/workflows/rtl-regression.yml'
   pull_request:
+    paths:
+      - 'projects/verilog-rtl-lab/**'
+      - '.github/workflows/rtl-regression.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   regression:
+    name: RTL regression (iverilog)
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/verilog-rtl-lab
     steps:
       - name: Checkout
         uses: actions/checkout@v4
