@@ -1,5 +1,7 @@
 # verilog-rtl-lab
 
+[![rtl-regression](https://github.com/320MARCUS/320MARCUS/actions/workflows/rtl-regression.yml/badge.svg)](https://github.com/320MARCUS/320MARCUS/actions/workflows/rtl-regression.yml)
+
 > **Verilog RTL design & self-checking verification lab** — 8 个从课程练习整理而来的 RTL 设计，每个配自检 TestBench，一条命令跑完全部回归。
 > 8 synthesizable RTL designs (counters, shift registers, clock divider, sequence detectors) with self-checking testbenches and one-command regression.
 
