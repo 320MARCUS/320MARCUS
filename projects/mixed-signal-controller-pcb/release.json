@@ -18,8 +18,10 @@
   "manufacturing_accepted": false,
   "pcb_native_drc_passed": true,
   "design_accepted": false,
-  "publication_status": "reviewed-local",
-  "push_status": "not-pushed-awaiting-explicit-confirmation",
+  "publication_status": "published-branch",
+  "push_status": "pushed",
+  "github_repository": "320MARCUS/320MARCUS",
+  "github_branch": "codex/pcb-mixed-signal-controller",
   "procurement_allowed": false,
   "source_assets": [
     {
