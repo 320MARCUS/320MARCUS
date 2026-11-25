@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "template_id": "320MARCUS-PORTFOLIO-A4-V1",
+  "method": "hide legacy title table and add one clean multiline profile text primitive per page",
+  "font_size_raw": 14,
+  "position_raw": {
+    "x": 790,
+    "y": 185
+  },
+  "pages": [
+    {
+      "page": "1_POWER",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 1 / 7",
+      "reload_status": "passed"
+    },
+    {
+      "page": "2_LVDS",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 2 / 7",
+      "reload_status": "passed"
+    },
+    {
+      "page": "3_CPLD",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 3 / 7",
+      "reload_status": "passed"
+    },
+    {
+      "page": "4_CTPT",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 4 / 7",
+      "reload_status": "passed"
+    },
+    {
+      "page": "5_ADC",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 5 / 7",
+      "reload_status": "passed"
+    },
+    {
+      "page": "6_DIDO",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 6 / 7",
+      "save_status": "passed",
+      "reopen_status": "passed",
+      "component_inventory_readiness": "failed_timeout",
+      "direct_title_and_text_readback": "passed"
+    },
+    {
+      "page": "7_COMMUNICATION",
+      "title_block_hidden": true,
+      "custom_text_present": true,
+      "page_label": "PAGE: 7 / 7",
+      "reload_status": "passed"
+    }
+  ],
+  "pdf_page_order": [
+    "1_POWER",
+    "2_LVDS",
+    "3_CPLD",
+    "4_CTPT",
+    "5_ADC",
+    "6_DIDO",
+    "7_COMMUNICATION"
+  ],
+  "eda_native_export_page_order": [
+    "1_POWER",
+    "2_LVDS",
+    "3_CPLD",
+    "5_ADC",
+    "7_COMMUNICATION",
+    "4_CTPT",
+    "6_DIDO"
+  ],
+  "pii_marker_count_in_final_pdf": 0
+}

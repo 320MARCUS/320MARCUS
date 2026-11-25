@@ -1,0 +1,39 @@
+{
+  "requiredLayersPresent": true,
+  "drillUnitChecks": {
+    "Drill_PTH_Through.DRL": true,
+    "Drill_NPTH_Through.DRL": true,
+    "Drill_PTH_Through_Via.DRL": true
+  },
+  "outlineLastPoint": "G01X20000044Y0D01",
+  "archiveFile": "mixed-signal-controller-gerber.zip",
+  "validatedAt": "2026-11-26T01:40:18.8986018+08:00",
+  "missingRequiredLayers": [],
+  "manufacturerApproval": "not-claimed",
+  "coordinateFormat": "4:5",
+  "entryCount": 18,
+  "archiveBytes": 763765,
+  "outlineClosed": true,
+  "outlineDimensionsMm": {
+    "source": "derived-from-GKO-coordinate-extents",
+    "y": 144.39199,
+    "x": 200.00044
+  },
+  "archiveSha256": "20d8ad2de1e7c5deb582eb9ab8d8616767baa71bd2b1c047053a142d3d93d62b",
+  "gerberMmUnits": true,
+  "drillMetricUnits": true,
+  "gerberUnitChecks": {
+    "Gerber_InnerLayer2.G2": true,
+    "Gerber_BoardOutlineLayer.GKO": true,
+    "Gerber_TopLayer.GTL": true,
+    "Gerber_TopSilkscreenLayer.GTO": true,
+    "Gerber_BottomPasteMaskLayer.GBP": true,
+    "Gerber_BottomSolderMaskLayer.GBS": true,
+    "Gerber_BottomLayer.GBL": true,
+    "Gerber_InnerLayer1.G1": true,
+    "Gerber_TopPasteMaskLayer.GTP": true,
+    "Gerber_BottomSilkscreenLayer.GBO": true,
+    "Gerber_TopSolderMaskLayer.GTS": true
+  },
+  "outlineFirstPoint": "G01X20000044Y0D02"
+}

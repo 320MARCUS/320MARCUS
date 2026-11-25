@@ -1,0 +1,658 @@
+{
+  "report": {
+    "ok": false,
+    "incomplete": false,
+    "coverage": {
+      "complete": true,
+      "componentsInventoryKnown": true,
+      "padsInventoryKnown": true,
+      "componentCount": 224,
+      "totalPads": 822,
+      "knownGeometryPads": 822,
+      "unsupportedGeometryPads": 0,
+      "unknownGeometryPads": 0,
+      "legacyGeometryPads": 0
+    },
+    "score": 0,
+    "verdict": "overlap",
+    "componentCount": 224,
+    "minGapMil": 5.98,
+    "overlaps": [
+      {
+        "type": "overlap",
+        "a": "MARK4",
+        "b": "U4",
+        "side": "top",
+        "overlapX": 39.4,
+        "overlapY": 39.4
+      },
+      {
+        "type": "overlap",
+        "a": "MARK5",
+        "b": "U4",
+        "side": "top",
+        "overlapX": 39.4,
+        "overlapY": 39.4
+      }
+    ],
+    "outsideOutline": null,
+    "tightSpacing": null,
+    "silkUnchecked": "pcb.silk.list failed: connector did not respond — context deadline exceeded",
+    "sides": {
+      "bottom": 37,
+      "top": 187
+    },
+    "signalNets": 169,
+    "ratsnestLenMil": 129472.01,
+    "crossingCount": 101,
+    "crossings": [
+      {
+        "netA": "$5N25",
+        "netB": "UN",
+        "x": 2129.29,
+        "y": -1434.22
+      },
+      {
+        "netA": "$5N33",
+        "netB": "IB",
+        "x": 1365.43,
+        "y": -2096.34
+      },
+      {
+        "netA": "$6N31",
+        "netB": "DO2",
+        "x": 4079.92,
+        "y": -3546.15
+      },
+      {
+        "netA": "$6N38",
+        "netB": "DO2",
+        "x": 3941.61,
+        "y": -3543.3
+      },
+      {
+        "netA": "$6N39",
+        "netB": "DO2",
+        "x": 3987.11,
+        "y": -3544.24
+      },
+      {
+        "netA": "$6N40",
+        "netB": "DO2",
+        "x": 4033.21,
+        "y": -3545.19
+      },
+      {
+        "netA": "$6N41",
+        "netB": "DO2",
+        "x": 4127.23,
+        "y": -3547.13
+      },
+      {
+        "netA": "$6N42",
+        "netB": "DO2",
+        "x": 4175.2,
+        "y": -3548.12
+      },
+      {
+        "netA": "$7N52",
+        "netB": "KI_COM",
+        "x": 1004.95,
+        "y": -4260.2
+      },
+      {
+        "netA": "$7N53",
+        "netB": "KI_COM",
+        "x": 1004.95,
+        "y": -4485.1
+      },
+      {
+        "netA": "$7N54",
+        "netB": "KI_COM",
+        "x": 1004.98,
+        "y": -4709.93
+      },
+      {
+        "netA": "$7N54",
+        "netB": "KI_COM",
+        "x": 903.89,
+        "y": -4721.51
+      },
+      {
+        "netA": "$7N54",
+        "netB": "KI_COM",
+        "x": 794.7,
+        "y": -4712.81
+      },
+      {
+        "netA": "$7N59",
+        "netB": "DI2",
+        "x": 3472.49,
+        "y": -3946.67
+      },
+      {
+        "netA": "$7N60",
+        "netB": "DI2",
+        "x": 3047.65,
+        "y": -4020.06
+      },
+      {
+        "netA": "$7N61",
+        "netB": "TTL_DRX",
+        "x": 3468.87,
+        "y": -4419.86
+      },
+      {
+        "netA": "$7N61",
+        "netB": "TTL_DTX",
+        "x": 3430.65,
+        "y": -4406.85
+      },
+      {
+        "netA": "$7N62",
+        "netB": "TTL_DRX",
+        "x": 3242.45,
+        "y": -4524.84
+      },
+      {
+        "netA": "$7N62",
+        "netB": "TTL_DTX",
+        "x": 3207.93,
+        "y": -4507.1
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "AD7606_CLK",
+        "x": 4359.62,
+        "y": -3442.71
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "AD7606_CONVST",
+        "x": 4327.88,
+        "y": -3450.08
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "AD7606_CS",
+        "x": 4375.76,
+        "y": -3438.96
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "AD7606_FRSTDATA",
+        "x": 4407.74,
+        "y": -3431.54
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "AD7606_RESET",
+        "x": 4648.61,
+        "y": -3375.59
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "ADC_D0",
+        "x": 4394.36,
+        "y": -3434.64
+      },
+      {
+        "netA": "AD7606_BUSY",
+        "netB": "DO1",
+        "x": 4502.12,
+        "y": -3409.62
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "AD7606_CONVST",
+        "x": 4291.77,
+        "y": -3453.15
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "AD7606_CS",
+        "x": 4342.36,
+        "y": -3445.37
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "AD7606_FRSTDATA",
+        "x": 4376.75,
+        "y": -3440.08
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "AD7606_RESET",
+        "x": 4762.92,
+        "y": -3380.69
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "ADC_D0",
+        "x": 4381.06,
+        "y": -3439.42
+      },
+      {
+        "netA": "AD7606_CLK",
+        "netB": "DO1",
+        "x": 4523.47,
+        "y": -3417.51
+      },
+      {
+        "netA": "AD7606_CONVST",
+        "netB": "AD7606_CS",
+        "x": 4309.72,
+        "y": -3451.62
+      },
+      {
+        "netA": "AD7606_CONVST",
+        "netB": "AD7606_FRSTDATA",
+        "x": 4346.04,
+        "y": -3448.54
+      },
+      {
+        "netA": "AD7606_CONVST",
+        "netB": "AD7606_RESET",
+        "x": 4224.08,
+        "y": -3458.89
+      },
+      {
+        "netA": "AD7606_CONVST",
+        "netB": "ADC_D0",
+        "x": 4358.58,
+        "y": -3447.48
+      },
+      {
+        "netA": "AD7606_CONVST",
+        "netB": "DO1",
+        "x": 4558.61,
+        "y": -3430.51
+      },
+      {
+        "netA": "AD7606_CS",
+        "netB": "AD7606_FRSTDATA",
+        "x": 4392.29,
+        "y": -3435.79
+      },
+      {
+        "netA": "AD7606_CS",
+        "netB": "AD7606_RESET",
+        "x": 4695.42,
+        "y": -3377.68
+      },
+      {
+        "netA": "AD7606_CS",
+        "netB": "ADC_D0",
+        "x": 4389.85,
+        "y": -3436.26
+      },
+      {
+        "netA": "AD7606_CS",
+        "netB": "DO1",
+        "x": 4511.24,
+        "y": -3412.99
+      },
+      {
+        "netA": "AD7606_FRSTDATA",
+        "netB": "AD7606_RESET",
+        "x": 4615.98,
+        "y": -3374.13
+      },
+      {
+        "netA": "AD7606_FRSTDATA",
+        "netB": "ADC_D0",
+        "x": 4387.37,
+        "y": -3437.15
+      },
+      {
+        "netA": "AD7606_FRSTDATA",
+        "netB": "DO1",
+        "x": 4495.77,
+        "y": -3407.27
+      },
+      {
+        "netA": "AD7606_RESET",
+        "netB": "ADC_D0",
+        "x": 4568.9,
+        "y": -3372.03
+      },
+      {
+        "netA": "AD7606_RESET",
+        "netB": "ADC_D1",
+        "x": 4446.52,
+        "y": -3366.57
+      },
+      {
+        "netA": "AD7606_RESET",
+        "netB": "DO1",
+        "x": 4377.38,
+        "y": -3363.49
+      },
+      {
+        "netA": "ADC_D0",
+        "netB": "DO1",
+        "x": 4483.41,
+        "y": -3402.7
+      },
+      {
+        "netA": "ADC_D1",
+        "netB": "DO1",
+        "x": 4414.6,
+        "y": -3377.25
+      },
+      {
+        "netA": "DI1",
+        "netB": "DO3",
+        "x": 4347.53,
+        "y": -3750.88
+      },
+      {
+        "netA": "DI1",
+        "netB": "DO4",
+        "x": 4694.94,
+        "y": -3714.69
+      },
+      {
+        "netA": "DI1",
+        "netB": "KO3",
+        "x": 2179.58,
+        "y": -3976.69
+      },
+      {
+        "netA": "DI1",
+        "netB": "KO_COM",
+        "x": 2199.47,
+        "y": -3974.62
+      },
+      {
+        "netA": "DI1",
+        "netB": "KO_COM",
+        "x": 2633.3,
+        "y": -3929.43
+      },
+      {
+        "netA": "DI2",
+        "netB": "DO3",
+        "x": 4060.94,
+        "y": -3845.01
+      },
+      {
+        "netA": "DI2",
+        "netB": "DO4",
+        "x": 4653.76,
+        "y": -3742.59
+      },
+      {
+        "netA": "DI2",
+        "netB": "KO4",
+        "x": 1785.5,
+        "y": -4238.12
+      },
+      {
+        "netA": "DI2",
+        "netB": "KO_COM",
+        "x": 2633.3,
+        "y": -4091.65
+      },
+      {
+        "netA": "DI3",
+        "netB": "DO4",
+        "x": 4594.18,
+        "y": -3782.96
+      },
+      {
+        "netA": "DI3",
+        "netB": "KO4",
+        "x": 2094.29,
+        "y": -4384.27
+      },
+      {
+        "netA": "DI3",
+        "netB": "KO_COM",
+        "x": 2633.3,
+        "y": -4254.62
+      },
+      {
+        "netA": "DI4",
+        "netB": "DO4",
+        "x": 4506.71,
+        "y": -3842.22
+      },
+      {
+        "netA": "DI4",
+        "netB": "KO_COM",
+        "x": 2633.3,
+        "y": -4418.26
+      },
+      {
+        "netA": "DIN1+",
+        "netB": "DIN2+",
+        "x": 7430.85,
+        "y": -2750.88
+      },
+      {
+        "netA": "DIN1-",
+        "netB": "DIN2+",
+        "x": 6943.98,
+        "y": -2622.43
+      },
+      {
+        "netA": "DIN1-",
+        "netB": "DIN2-",
+        "x": 7523.15,
+        "y": -2694.58
+      },
+      {
+        "netA": "DIN3+",
+        "netB": "DIN4+",
+        "x": 7525.72,
+        "y": -2595.4
+      },
+      {
+        "netA": "DIN3-",
+        "netB": "DIN4+",
+        "x": 6952.86,
+        "y": -2493.69
+      },
+      {
+        "netA": "DIN3-",
+        "netB": "DIN4-",
+        "x": 7651.15,
+        "y": -2526.18
+      },
+      {
+        "netA": "DO1",
+        "netB": "V4",
+        "x": 3947.99,
+        "y": -3204.69
+      },
+      {
+        "netA": "DO1",
+        "netB": "V5",
+        "x": 3922.18,
+        "y": -3195.14
+      },
+      {
+        "netA": "DO1",
+        "netB": "V6",
+        "x": 3854.08,
+        "y": -3169.96
+      },
+      {
+        "netA": "DO1",
+        "netB": "VG4",
+        "x": 3940.13,
+        "y": -3201.78
+      },
+      {
+        "netA": "DO1",
+        "netB": "VG5",
+        "x": 3919.41,
+        "y": -3194.12
+      },
+      {
+        "netA": "DO1",
+        "netB": "VG6",
+        "x": 3869.69,
+        "y": -3175.73
+      },
+      {
+        "netA": "DO4",
+        "netB": "TTL_DRX",
+        "x": 4055.8,
+        "y": -4147.73
+      },
+      {
+        "netA": "DO4",
+        "netB": "TTL_DTX",
+        "x": 4153.74,
+        "y": -4081.37
+      },
+      {
+        "netA": "DOUT1-",
+        "netB": "DOUT2+",
+        "x": 6977.22,
+        "y": -2346.43
+      },
+      {
+        "netA": "DOUT3-",
+        "netB": "DOUT4+",
+        "x": 6990.97,
+        "y": -2211.88
+      },
+      {
+        "netA": "ETDI",
+        "netB": "ETMS",
+        "x": 5147.87,
+        "y": -2224.27
+      },
+      {
+        "netA": "IB",
+        "netB": "IC",
+        "x": 878.87,
+        "y": -2115.22
+      },
+      {
+        "netA": "KI4",
+        "netB": "KI_COM",
+        "x": 700,
+        "y": -4705.26
+      },
+      {
+        "netA": "KO3",
+        "netB": "KO_COM",
+        "x": 2156.63,
+        "y": -3969.97
+      },
+      {
+        "netA": "KO4",
+        "netB": "KO_COM",
+        "x": 940,
+        "y": -3837.93
+      },
+      {
+        "netA": "V1",
+        "netB": "V2",
+        "x": 3770.82,
+        "y": -2558.8
+      },
+      {
+        "netA": "V1",
+        "netB": "V3",
+        "x": 3902.13,
+        "y": -2949.95
+      },
+      {
+        "netA": "V1",
+        "netB": "VG1",
+        "x": 3921.15,
+        "y": -3006.61
+      },
+      {
+        "netA": "V1",
+        "netB": "VG2",
+        "x": 3576.87,
+        "y": -1981.03
+      },
+      {
+        "netA": "V1",
+        "netB": "VG3",
+        "x": 3888.18,
+        "y": -2908.41
+      },
+      {
+        "netA": "V2",
+        "netB": "V3",
+        "x": 3921.68,
+        "y": -3041.75
+      },
+      {
+        "netA": "V2",
+        "netB": "VG1",
+        "x": 3503.17,
+        "y": -1701.95
+      },
+      {
+        "netA": "V2",
+        "netB": "VG2",
+        "x": 3399.11,
+        "y": -1368.84
+      },
+      {
+        "netA": "V2",
+        "netB": "VG3",
+        "x": 3906.53,
+        "y": -2993.23
+      },
+      {
+        "netA": "V3",
+        "netB": "VG1",
+        "x": 3887.92,
+        "y": -2883.25
+      },
+      {
+        "netA": "V3",
+        "netB": "VG2",
+        "x": 3935.41,
+        "y": -3106.18
+      },
+      {
+        "netA": "V4",
+        "netB": "VG4",
+        "x": 3514.41,
+        "y": -2095.43
+      },
+      {
+        "netA": "V4",
+        "netB": "VG4",
+        "x": 3885.71,
+        "y": -3045.34
+      },
+      {
+        "netA": "V5",
+        "netB": "VG5",
+        "x": 3911.61,
+        "y": -3175.09
+      },
+      {
+        "netA": "V6",
+        "netB": "VG6",
+        "x": 3900.94,
+        "y": -3226.56
+      },
+      {
+        "netA": "VG1",
+        "netB": "VG3",
+        "x": 3861.64,
+        "y": -2785.69
+      },
+      {
+        "netA": "VG2",
+        "netB": "VG3",
+        "x": 3921.55,
+        "y": -3062.69
+      }
+    ],
+    "summary": "score 0/100 (overlap): 224 comps [bottom 37 / top 187], 0 short, 2 overlap, 0 off-board, 0 tight; 169 signal nets, ratsnest 129472mil, 101 crossings"
+  }
+}

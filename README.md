@@ -21,7 +21,9 @@
 
 ## 项目
 
-> 第一批项目正在整理中，完成后会依次开源。
+| 项目 | 方向 | 入口 |
+|---|---|---|
+| **mixed-signal-controller-pcb** | 嘉立创EDA：七页混合信号控制板、四层 PCB、Gerber/BOM/P&P 与静态验证 | [`projects/mixed-signal-controller-pcb`](projects/mixed-signal-controller-pcb) |
 
 每个项目的详细说明、硬件参数、测试数据和踩坑记录，都放在各自目录的 `README.md` 里。
 

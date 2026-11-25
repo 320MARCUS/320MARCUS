@@ -1,0 +1,13 @@
+{
+  "placementDesignators": 224,
+  "exactSetMatch": true,
+  "bomDesignators": 224,
+  "bomFileSha256": "178cf3635bc17881b8192c3bbc6b3b03f31ed6f3678e7f9d59037d2960499498",
+  "placementOnly": [],
+  "checkedAt": "2026-11-26T01:39:51.4623182+08:00",
+  "bomLines": 59,
+  "bomOnly": [],
+  "placementFile": "mixed-signal-controller-placement-mm.csv",
+  "placementFileSha256": "133c1ab814d9f24c21c5b7ec6a72dfed114351e6ca49fd443e7e9040779f063b",
+  "bomFile": "mixed-signal-controller-bom.tsv"
+}
